@@ -16,7 +16,7 @@ $db->set_charset("utf8");
 if (!empty($_FILES['images']['name'][0])) {
 
 
-    $targetDir = dirname(__FILE__).'\file\\';
+    $targetDir = dirname(__FILE__).'/file//';
 
     $images_arr = array();
     foreach ($_FILES['images']['name'] as $key => $val) {
