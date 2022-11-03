@@ -6,7 +6,7 @@
 <body>
 
 <div class="imgerror">
-    <p>An error occurred. Please try again</p>
+    <p>Any error occurred. Please try again</p>
     <a href='index.php'>return</a>
    </div>
 
