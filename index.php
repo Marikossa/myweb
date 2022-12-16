@@ -6,7 +6,8 @@
 <body>
 <form id="addForm" method="post" novalidate name="signin-form" enctype="multipart/form-data">
     <div class="form-element">
-            <label>add your text</label>
+    <p style="font-size: 1.5rem; font-family: 'Lato';"><?php echo $_SERVER['SERVER_ADDR']; ?></p>
+        <label>add your text</label>
         <textarea name="insert" rows="4" cols="50"></textarea>
         <br>
     </div>
